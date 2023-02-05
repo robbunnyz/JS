@@ -23,12 +23,12 @@ module.exports = (sequelize, DataTypes) => {
       allowNull:false
     },
     createdAt: {
-      type: DataTypes.DataTypes,
+      type: DataTypes.DATE,
       allowNull: false,
       defaultValue:DataTypes.NOW
     },
     deletedAt: {
-      type: DataTypes.DataTypes,
+      type: DataTypes.DATE,
     }  
 
   }, {
